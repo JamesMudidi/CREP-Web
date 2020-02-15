@@ -2,7 +2,7 @@
   "name": "CREP",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://jamesmudidi.github.io/CREP-Web/",
+  "homepage": "https://jamesmudidi.github.io/CREP-Web",
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "react-scripts": "0.9.5"

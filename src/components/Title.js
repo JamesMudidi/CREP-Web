@@ -148,9 +148,9 @@ const Email = ({ text, className, href }) =>
 const Title = () => (
   <Wrapper>
     <Heading
-    heading="Welcome to our new domain name"
+    heading="Welcome to our new domain | we are"
     subheading="Continental Real Estate Partners"
-    content="Works in progress in the backend and we glad you are checking us out.
+    content="Work is in progress in the backend and we glad you are checking us out.
     You can contact us, or just say Hi using the email icon below"/>
     <Email
     href="mailto:mudidi.jimmy@gmail.com?Subject=Hello%20again"

@@ -6,7 +6,8 @@ const Wrapper = styled.div`
   position: absolute;
   top: 15%;
   left: 6%;
-  max-width: 600px;
+  right: 6%;
+  max-width: 550px;
   zIndex: 999;
 `
 const IconInLeft = styled.a`
@@ -121,13 +122,14 @@ const MainTitleBounceIn = styled(MainTitle)`
 const SubTitleBounceIn = styled(MainTitle)`
   animation-name: ${bounceInDownAnimation};
   animation-delay: 1.5s;
-  font-size: 58px;
+  font-size: 54px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 `
 const ContentBounceIn = styled(MainTitle)`
   animation-name: ${bounceInUpAnimation};
   animation-delay: 2.5s;
-  font-size: 16px;
-  margin-top: 30px;
+  font-size: 20px;
 `
 const EmailInUp = styled(IconInLeft)`
   animation-name: ${bounceInUpAnimation};

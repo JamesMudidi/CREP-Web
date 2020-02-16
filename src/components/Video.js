@@ -13,12 +13,10 @@ const VideoClip = styled.video`
   position: fixed;
   top: 50%;
   left: 50%;
-  minWidth: 100%;
-  minHeight: 100%;
-  width: auto;
-  height: auto;
+  width: 100em;
+  height: 100em;
   transform: translateX(-50%) translateY(-50%);
-  opacity: 0.4;
+  opacity: 0.6;
 `
 
 const Wrapper = styled.div`
